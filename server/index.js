@@ -22,6 +22,10 @@ app.get("*", (req, res) => {
   res.sendFile(join(__dirname, "./build", "index.html"));
 });
 
+app.get('*', (req, res) => {
+    res.sendFile('./build/index.html');
+  });
+
 //Database connection
 connectDb();
 
