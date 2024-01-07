@@ -5,7 +5,8 @@ import authRoute from "./routes/authRoute.js";
 import cors from "cors";
 dotenv.config();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || ecommerce-lake-seven-45.vercel.app
+;
 const app = express();
 
 //Middlewares
