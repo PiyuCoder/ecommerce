@@ -23,7 +23,7 @@ app.use(express.json());
 // });
 
 app.get("/", (req, res) => {
-  res.send("working");
+  res.write("working");
 });
 
 // app.get('*', (req, res) => {
