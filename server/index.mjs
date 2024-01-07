@@ -21,24 +21,18 @@ app.use(express.json());
 // app.get("*", (req, res) => {
 //   res.sendFile(join(__dirname, "./build", "index.html"));
 // });
-<<<<<<< HEAD:server/index.mjs
-=======
 
 app.get("/", (req, res) => {
   res.write("working");
 });
->>>>>>> 56f61207e45491ac4ab185197d2ea25fabbd7986:server/index.js
 
 // app.get('*', (req, res) => {
 //     res.sendFile('./build/index.html');
 //   });
-<<<<<<< HEAD:server/index.mjs
 
 app.get("/", (req, res) => {
   res.send("working");
 });
-=======
->>>>>>> 56f61207e45491ac4ab185197d2ea25fabbd7986:server/index.js
 
 //Database connection
 connectDb();
