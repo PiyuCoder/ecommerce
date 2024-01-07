@@ -23,16 +23,12 @@ app.use(express.json());
 // });
 
 app.get("/", (req, res) => {
-  res.write("working");
+  res.send("working");
 });
 
 // app.get('*', (req, res) => {
 //     res.sendFile('./build/index.html');
 //   });
-
-app.get("/", (req, res) => {
-  res.send("working");
-});
 
 //Database connection
 connectDb();
