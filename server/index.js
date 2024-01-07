@@ -22,7 +22,7 @@ app.use(express.json());
 //   res.sendFile(join(__dirname, "./build", "index.html"));
 // });
 
-app.get("/", (req, res) => {
+app.use("/", (req, res) => {
   res.send("working");
 });
 
