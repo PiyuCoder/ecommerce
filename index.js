@@ -5,7 +5,8 @@ import authRoute from "./routes/authRoute.js";
 import cors from "cors";
 dotenv.config();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT
+;
 const app = express();
 
 //Middlewares
