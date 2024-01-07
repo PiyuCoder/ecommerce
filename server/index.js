@@ -22,9 +22,9 @@ app.use(express.json());
 //   res.sendFile(join(__dirname, "./build", "index.html"));
 // });
 
-app.get("/",()=>{
-  res.send("working")
-})
+app.get("/",(req, res)=>{
+    res.send("working")
+  })
 
 // app.get('*', (req, res) => {
 //     res.sendFile('./build/index.html');
