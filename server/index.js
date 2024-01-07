@@ -14,6 +14,10 @@ app.use(express.json());
 
 app.use("/", express.static("build"));
 
+app.get('*', (req, res) => {
+  res.sendFile('./build', 'index.html'));
+});
+
 //Database connection
 connectDb();
 
