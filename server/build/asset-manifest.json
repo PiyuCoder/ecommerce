@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/css/main.326b3e0c.css",
-    "main.js": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/js/main.78be53ed.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/index.html",
-    "main.326b3e0c.css.map": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/css/main.326b3e0c.css.map",
-    "main.78be53ed.js.map": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/js/main.78be53ed.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/ecommerce-hsfryv9ly-piyush-rais-projects.vercel.app/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/static/css/main.326b3e0c.css",
+    "main.js": "/static/js/main.6539ad84.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/index.html",
+    "main.326b3e0c.css.map": "/static/css/main.326b3e0c.css.map",
+    "main.6539ad84.js.map": "/static/js/main.6539ad84.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.326b3e0c.css",
-    "static/js/main.78be53ed.js"
+    "static/js/main.6539ad84.js"
   ]
 }
