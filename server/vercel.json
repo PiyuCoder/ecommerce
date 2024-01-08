@@ -9,4 +9,3 @@
     { "src": "/(.*)", "dest": "server/build/$1" }
   ]
 }
-
